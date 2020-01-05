@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage_step">
+    <ProgressBar
+        android:id="@+id/watch_steps_progress"
+        android:layout_below="@+id/head_icon"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:maxHeight="16px"
+        android:minHeight="16px"
+        android:layout_width="220px"
+        android:layout_height="16px"
+        android:layout_marginTop="4px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:max="8000"
+        android:progress="2000"
+        android:progressDrawable="@drawable/storage_progress" />
+
+    <TextView
+        android:id="@+id/watch_steps_title"
+        android:layout_below="@+id/watch_steps_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/step_target_title"
+        android:textSize="@dimen/item_text_size"
+        android:textColor="@color/text_word_thmem"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/head_icon"
+        android:layout_width="240px"
+        android:layout_height="180px"
+        android:background="@drawable/mainpage_head"
+        />
+</RelativeLayout>

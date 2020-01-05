@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">stepStart</string>
+
+    <string name="steps_firend">好友</string>
+    <string name="steps_default_rank">暂无排名</string>
+    <string name="steps_city">城市</string>
+    <string name="steps_default_title">暂无排名</string>
+    <string name="steps_all_zone">全部</string>
+    <string name="step_target_title">0000/8000</string>
+</resources>

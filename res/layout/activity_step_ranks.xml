@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_step_ranks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xxun.watch.stepstart.stepRanksActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_backgroud_theme"
+        android:paddingLeft="13.33px"
+        android:paddingRight="13.33px"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_ranks_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/steps_firend"
+                android:textSize="@dimen/item_text_size"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_word_thmem"/>
+            <TextView
+                android:id="@+id/ranks_text_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/item_text_size"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_word_thmem"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_ranks_item_height">
+            <TextView
+                android:id="@+id/ranks_area_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/steps_city"
+                android:textSize="@dimen/item_text_size"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_word_thmem"/>
+            <TextView
+                android:id="@+id/ranks_text_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/item_text_size"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_word_thmem"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_ranks_item_height">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/steps_all_zone"
+                android:textSize="@dimen/item_text_size"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_word_thmem"/>
+            <TextView
+                android:id="@+id/ranks_text_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/item_text_size"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_word_thmem"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
